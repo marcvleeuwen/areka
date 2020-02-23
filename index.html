@@ -2,24 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <meta content="index, follow" name="robots"/>
     <meta content="Zunde is an alternative digital bank for African migrants living in the diaspora built by migrants."
           name="description">
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#343a40"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
-    <link rel="manifest" href="assets/icons/site.webmanifest">
-    <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#da532c">
-    <link rel="shortcut icon" href="assets/icons/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="Zunde">
-    <meta name="application-name" content="Zunde">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
+    <link href="manifest.json" rel="manifest">
+    <meta content="#343a40" name="theme-color"/>
+    <link href="assets/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="assets/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="assets/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="assets/icons/site.webmanifest" rel="manifest">
+    <link color="#da532c" href="assets/icons/safari-pinned-tab.svg" rel="mask-icon">
+    <link href="assets/icons/favicon.ico" rel="shortcut icon">
+    <meta content="Zunde" name="apple-mobile-web-app-title">
+    <meta content="Zunde" name="application-name">
+    <meta content="#da532c" name="msapplication-TileColor">
+    <meta content="assets/icons/browserconfig.xml" name="msapplication-config">
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="css/site.css" rel="stylesheet">
     <title>Zunde | Digital wallet</title>
@@ -49,7 +49,7 @@
                     <strong>built by migrants</strong>.</p>
             </div>
             <div class="col-12 col-lg-7 d-flex align-items-center justify-content-center">
-                <img class="landing-img" src="assets/png/vector-phone.png" width="100%"/>
+                <img alt="" class="landing-img" src="assets/png/vector-phone.png" width="100%"/>
             </div>
         </div>
     </div>
@@ -177,7 +177,9 @@
         </div>
         <form class="row d-flex align-items-center justify-content-center m-0 w-100">
             <div class="col-12 col-lg-7">
-                <input class="px-5 py-2 w-100" placeholder="Email" required type="email">
+                <label class="w-100">
+                    <input class="px-5 py-2 w-100" placeholder="Email" required type="email">
+                </label>
             </div>
             <div class="col-12 col-lg-3">
                 <button class="w-100 btn btn-gradient-blue px-5" type="submit">Sign me up!</button>
