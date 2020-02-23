@@ -1,12 +1,12 @@
 var cacheName = 'Zunde';
 var filesToCache = [
-    '/',
+    '',
     'index.html',
-    // '/assets/png/notifications.png',
-    // '/assets/png/payments.png',
-    // '/assets/png/send.png',
-    // '/assets/png/spend.png',
-    // '/assets/png/vector-phone.png',
+    'assets/png/notifications.png',
+    'assets/png/payments.png',
+    'assets/png/send.png',
+    'assets/png/spend.png',
+    'assets/png/vector-phone.png',
     'css/bootstrap/bootstrap.min.css',
     'css/site.css',
     'js/bootstrap/bootstrap.min.js',
