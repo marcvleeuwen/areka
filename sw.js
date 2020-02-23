@@ -1,18 +1,18 @@
 var cacheName = 'Zunde';
 var filesToCache = [
     '/',
-    '/index.html',
-    '/assets/png/notifications.png',
-    '/assets/png/payments.png',
-    '/assets/png/send.png',
-    '/assets/png/spend.png',
-    '/assets/png/vector-phone.png',
-    '/css/bootstrap/bootstrap.min.css',
-    '/css/site.css',
-    '/js/bootstrap/bootstrap.min.js',
-    '/js/bootstrap/jquery-3.3.1.slim.min.js',
-    '/js/bootstrap/popper.min.js',
-    '/js/main.js'
+    'index.html',
+    // '/assets/png/notifications.png',
+    // '/assets/png/payments.png',
+    // '/assets/png/send.png',
+    // '/assets/png/spend.png',
+    // '/assets/png/vector-phone.png',
+    'css/bootstrap/bootstrap.min.css',
+    'css/site.css',
+    'js/bootstrap/bootstrap.min.js',
+    'js/bootstrap/jquery-3.3.1.slim.min.js',
+    'js/bootstrap/popper.min.js',
+    'js/main.js'
 ];
 
 /* Start the service worker and cache all of the app's content */
